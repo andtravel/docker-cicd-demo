@@ -19,3 +19,8 @@ jobs:
           echo "Коммит: ${{ github.sha }}"
           pwd
           ls -la
+
+      - name: Check Docker
+        run: |
+          docker --version
+          docker info
