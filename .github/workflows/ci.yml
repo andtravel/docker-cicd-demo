@@ -1,4 +1,4 @@
-name: Docker CI/CD main
+name: Docker CI/CD
 
 on:
   push:
